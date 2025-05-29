@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script>
+      const pageURL = document.referrer || window.location.href;
+      const makeWebhook = 'https://hook.eu2.make.com/hw23reilghapoo384wdxonju5x24at9m';
+      const redirectURL = makeWebhook + '?url=' + encodeURIComponent(pageURL);
+      window.location.href = redirectURL;
+    </script>
+  </head>
+  <body>
+    <p>자동으로 이동 중입니다...</p>
+  </body>
+</html>
