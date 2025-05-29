@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Redirecting...</title>
     <script>
+      alert("Referrer: " + document.referrer); // ✨ 여기 추가
+
       const pageURL = document.referrer || window.location.href;
       const makeWebhook = 'https://hook.eu2.make.com/hw23reilghapoo384wdxonju5x24at9m';
       const redirectURL = makeWebhook + '?url=' + encodeURIComponent(pageURL);
